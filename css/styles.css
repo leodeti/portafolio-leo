@@ -1,0 +1,137 @@
+
+.fondo1{
+    background: url(../img/1.jpg) no-repeat;
+}
+.fondo2{
+    background: url(../img/2.jpg) no-repeat;
+}
+
+#hero{
+    padding: top 120px;
+    padding-bottom: 80px;
+}  /* cambiar clores  texno menu del hero*/
+#hero h1{
+    color:white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#hero p{
+    color: white;
+    font-size: 22px;
+}
+
+#hero img{
+    width: 1900px; 
+    height: 500px; 
+    background-repeat: repeat-x;
+}
+
+.mb-auto{
+    color: white !important;
+}
+.mb-0{
+    color:white;
+}
+.card-title{
+    color: #CE1212;
+    
+}
+#oracle .card-text {
+    color: white;
+}
+p{
+color: white;
+}
+.card-text{
+    color: black;
+}
+
+
+
+
+#oraclee .card-text{
+    color: white;
+
+}
+
+
+
+
+
+
+
+#hero2 h1{
+    color:white;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+header{
+    width: 100%;
+    position: relative;
+}
+
+
+#welcome{
+    width: 100%;
+    position: relative;
+    background: #CE1212;
+    padding: 01px;
+}
+
+.infoPro{
+    text-align: center;
+}
+
+/* estilo main 2 */
+
+
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.fila{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+   position: relative; 
+   width: 100%;
+
+}
+
+
+/* pseudo elmento empezamos por agregar la propiedad position:relative al contenedor  */
+main{
+position: relative;
+}
+
+
+/* al selector padre le agregamos :: after  
+
+main::after{
+
+/* el seudoelemento siempre debe de tener una possicion absoluta un contet basio osea comillas "", dimencines, fondo y posisiones 
+
+position: absolute;
+content:"";
+width: 250px;
+height: 500px;
+background: url(../img/Line\ 1.png);
+top:0;
+left:0;
+z-index: -1;
+}
+
+   */
+
+   #whatsapp{
+    position: fixed;
+    right: 10px;
+    top: 80%;
+    z-index: 9999;
+   }
